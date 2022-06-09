@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frenchies</title>
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- header Start -->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">Frenchies & puppies</a>
+
+            <div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                    aria-label="toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- header Done -->
+
+    <!-- flyout navigation start -->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+
+
+
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+
+            <div class="row align-items-start">
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/Blck_frenchie.jpeg" alt="blackFrencie" class="img-fluid" width="553"
+                                height="746" loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing french puppy</h3>
+                            <p>Find out more about our black Frenchies</p>
+                            <p>Learn More<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/black2Frenchie.jpg" alt="blackFrencie" class="img-fluid" width="553"
+                                height="746" loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing french puppy</h3>
+                            <p>Find out more about our black Frenchies</p>
+                            <p>Learn More<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="img/Blck_frenchie.jpeg" alt="blackFrencie" class="img-fluid" width="553"
+                                height="746" loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing french puppy</h3>
+                            <p>Find out more about our black Frenchies</p>
+                            <p>Learn More<i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+
+                    </a>
+                </div>
+
+
+
+            </div>
+
+
+
+            <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle navigation">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+
+        </div>
+    </nav>
+    <!-- flyout navigation end -->
+
+    <!-- Hero start -->
+    <section class="hero">
+
+        <div class="hero__overlay"></div>
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"
+            class="hero__video">
+            <source src="img/Pexels Videos 2297636.mp4" type="video/mp4">
+        </video>
+        <div class="hero__content h-100 container-custom position-relative">
+
+            <div class="d-flex h-100 align-items-center hero__content-width">
+                <div class="text-white">
+                    <h1 class="hero__heading fw-bold mb-4">Prestigous Kennel.</h1>
+                    <p class="lead mb-4">The world most Luxurious and finest pure breed french bulldogs in the industry.
+                    </p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="#scroll-down" class="hero__scroll-btn">
+            Explore <i class="bi bi-arrow-down-short"></i>
+        </a>
+
+    </section>
+    <!-- Hero end -->
+
+    <a id="scroll-down"></a>
+    <!-- Section one start -->
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="img/Brwn_frenchie.jpeg" alt="brownFrench" class="img-fluid pb-4 steps__section-thumbnail"
+                    width="553" height="746" loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+
+                <div class="steps__content-width">
+                    <span>01</span>
+                    <h1 class="h2-mb-4">Brown French bulldog </h1>
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque maxime autem dicta
+                        ducimus ipsum, mollitia sed iure temporibus rem iste voluptatum ex optio tenetur corporis ullam
+                        praesentium vitae repellendus numquam?</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End of section -->
+
+    <section class="steps steps--background">
+
+        <div class="container-custom">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                    <img src="img/piedFrenchbull.jpg" alt="piedFrench" class="img-fluid pb-4 steps__section-thumbnail"
+                        width="553" height="746" loading="lazy">
+                </div>
+
+                <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+
+                    <div class="steps__content-width">
+                        <span>02</span>
+                        <h1 class="h2-mb-4">Pied French bulldog</h1>
+                        <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque maxime autem
+                            dicta ducimus ipsum, mollitia sed iure temporibus rem iste voluptatum ex optio tenetur
+                            corporis ullam praesentium vitae repellendus numquam?</p>
+                        <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="img/White_frenchie.jpeg" alt="whiteFrench" class="img-fluid pb-4 steps__section-thumbnail"
+                    width="553" height="746" loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+
+                <div class="steps__content-width">
+                    <span>01</span>
+                    <h1 class="h2-mb-4">White French bulldog </h1>
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque maxime autem dicta
+                        ducimus ipsum, mollitia sed iure temporibus rem iste voluptatum ex optio tenetur corporis ullam
+                        praesentium vitae repellendus numquam?</p>
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section with 3 cols Start -->
+    <section class="bg-dark text-white py-4">
+        <div class="container-custom my-4">
+            <div class="row">
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/marblefrench.jpg" alt="marble french" width="441" height="348" loading="lazy">
+                    <h3>Marble french bulldog</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi nobis laborum soluta eos, cum
+                        explicabo neque nihil voluptatibus. Saepe laudantium eveniet aliquid vitae harum tempore neque
+                        culpa aut dolore eligendi?</p>
+                </div>
+
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/chocolateFrench.jpg" alt="Coco french" width="441" height="348" loading="lazy">
+                    <h3>Chocolate French bulldog</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi nobis laborum soluta eos, cum
+                        explicabo neque nihil voluptatibus. Saepe laudantium eveniet aliquid vitae harum tempore neque
+                        culpa aut dolore eligendi?</p>
+                </div>
+
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/silverFrench.jpg" alt="Silver French" width="441" height="348" loading="lazy">
+                    <h3>Silver French bulldog</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi nobis laborum soluta eos, cum
+                        explicabo neque nihil voluptatibus. Saepe laudantium eveniet aliquid vitae harum tempore neque
+                        culpa aut dolore eligendi?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- section 3 cols end -->
+
+<!-- footer -->
+<footer class="footer bg-dark text-white">
+    <div class="container-custom d-flex justify-content-between align-items-center py-3 border-hightlight">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="me-2 text-muted">
+                <i class="bi bi-dog"></i>
+                <span>&copy; 2022 Prestigous Kennel</span>
+            </a>
+
+        </div>
+    
+        <ul class="nav-col-md-4 justify-content-end list-unstyled d-flex text-white">
+            <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-twitter"></i></li>
+            <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-instagram"></i></li>
+            <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-facebook"></i></li>
+        </ul>
+
+
+
+    </div>
+
+
+
+</footer>
+
+
+         
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
